@@ -2,8 +2,7 @@
 This is one of the simple CTF based on the Rick and Morty cartoon. This is a **free**room, which means anyone can deploy virtual machines in the room (without being subscribed)!
 There are only 3 questions so probably not to hard to bit!
 
-![[Photos/Screenshot 2023-09-21 at 12.37.28.png]]
-![Photos](Photos/Screenshot 2023-09-21 at 12.37.28.png)
+![[Screenshot 2023-09-21 at 12.37.28.png]]
 
 
 # Start here.
