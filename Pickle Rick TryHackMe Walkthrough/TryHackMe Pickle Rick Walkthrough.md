@@ -4,7 +4,6 @@ There are only 3 questions so probably not to hard to bit!
 
 ![[Screenshot 2023-09-21 at 12.37.28.png]]
 
-
 # Start here.
 ## Step 1 
 
