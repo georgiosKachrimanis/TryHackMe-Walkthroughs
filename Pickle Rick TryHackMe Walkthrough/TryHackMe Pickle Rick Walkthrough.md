@@ -66,7 +66,7 @@ On the address bar type the address of the VM you started earlier [[#Step 1]].
 For my example I had this IP: 10.10.149.123 <br><br>
 
 
-<img src="Photos/pickle_rick_8.png" width="300" height="100">
+<img src="Photos/pickle_rick_8.png">
 
 Web Browser of local VM
 
@@ -161,7 +161,8 @@ Maybe will be a good idea to try these names as directories/web pages that might
 We already know what robots.txt does.
 If we try Sup3rS3cretPickl3Ingred.txt we are faced with this page:
 
-![[Screenshot 2023-09-21 at 18.37.53.png]]
+<img src="Photos/pickle_rick_21.png" width="50%" height="50%">
+
 If we use the clue we can answer the  1st Question:  *What is the first ingredient that Rick needs?*
 
 **Congratulations!!!** 
@@ -169,43 +170,43 @@ If we use the clue we can answer the  1st Question:  *What is the first ingredie
 # Question 2
 
 ## Step 2.1
-At [[#Step 1.5]] we used the `ls` command, let us use the pwd and whoami commands now.
+At [#Step 1.5](#step-15) we used the `ls` command, let us use the pwd and whoami commands now.
 
 `pwd`: 
 
-![[Screenshot 2023-09-21 at 18.43.02.png]]
+<img src="Photos/pickle_rick_22.png" width="30%" height="30%">
 
 and `whoami`:
 
-![[Screenshot 2023-09-21 at 18.43.32.png]]
+<img src="Photos/pickle_rick_23.png" width="30%" height="30%">
 
 
-Both commands are really good to understand what are the possibilities to find more clues about the ingredients. Maybe we should start searching in the system as the [[#clue.txt]] suggested 
+Both commands are really good to understand what are the possibilities to find more clues about the ingredients. Maybe we should start searching in the system as the [#clue.txt](#cluetxt) suggested 
 
 ## Step 2.2
 
 Using the `ls /home command` we see that are 2 directories for users rick and ubuntu... 
 
-![[Screenshot 2023-09-21 at 18.46.08.png]]
+<img src="Photos/pickle_rick_24.png" width="30%" height="30%">
 
 
 ## Step 2.3
 Using the command `ls /home/rick` we see there is a file inside users rick directory maybe we should try to see what is inside this file with the `cat` command
 
-![[Screenshot 2023-09-21 at 18.47.47.png]]
+<img src="Photos/pickle_rick_25.png" width="30%" height="30%">
 
 
 ## Step 2.4 
 Using the `cat /home/rick/second ingredients` 
 Unfortunately Rick is smart!!!
 
-![[Screenshot 2023-09-21 at 18.52.31.png]]
+<img src="Photos/pickle_rick_26.png" width="30%" height="30%">
 
 ## Step 2.5 
 Maybe Rick is smart but we know linux...  Let's try some more commands like `sudo cat /home/rick/second ingredients `
 
 
-![[Screenshot 2023-09-21 at 18.52.31.png]]
+<img src="Photos/pickle_rick_26.png" width="30%" height="30%">
 
 Again the same but we know there are more types of commands to use with especially now that we saw that `sudo` commands are available!
 
@@ -217,7 +218,8 @@ It is a bit complicated to explain what the command `less` is doing so better re
 
 After we run the command we have something new:
 
-![[Screenshot 2023-09-21 at 20.13.53.png]]`
+<img src="Photos/pickle_rick_29.png" width="50%" height="50%">
+
 
 **Congratulations!!** 
 # Question 3
@@ -225,19 +227,20 @@ After we run the command we have something new:
 ## Step 3.1
 
 Another really nice command to check all the directories in the current user is `sudo ls ../../../*`
+<br>
+<img src="Photos/pickle_rick_27.png" width="50%" height="50%">
+<br>
+We get  a lot of directories, if we search more inside them we see: 
+<img src="Photos/pickle_rick_28.png" width="50%" height="50%">
 
-![[Screenshot 2023-09-21 at 19.57.08.png]]
-
-We get  a lot of directories, if we search more inside them we see 
-![[Screenshot 2023-09-21 at 19.59.19.png]]
 **Bingo**
 
 Lets try to see what is inside:
 
-![[Screenshot 2023-09-21 at 20.17.30.png]]
+<img src="Photos/pickle_rick_30.png" width="40%" height="40%">
 
 **Congratulations!! You found the last ingredient, Rick is saved!!!** 
-
+<br>
 Hope you had enjoyed this guide, if you want to comment or correct me please feel free to contact me. 
 
 # Source Code Inspection
