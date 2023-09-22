@@ -1,7 +1,7 @@
 # About 
 This is one of the simple CTF based on the Rick and Morty cartoon. This is a **free**room, which means anyone can deploy virtual machines in the room (without being subscribed)!
 There are only 3 questions so probably not to hard to finish!
-<img src="Photos/pickle_rick_1.png">
+<img src="Media/Pickle_Rick/Images/pickle_rick_1.png">
 
 
 
@@ -11,7 +11,7 @@ There are only 3 questions so probably not to hard to finish!
 
 Before we begin of course we need to start the VM that Rick has stored the ingredients!
 
-<img src="Photos/pickle_rick_2.png" width="300" height="100">
+<img src="Media/Pickle_Rick/Images/pickle_rick_2.png" width="300" height="100">
 
 ## Step 2 
 
@@ -20,7 +20,7 @@ Also, after this click on *Start Attack Box*. Of course you can use your own com
 You  can find more information how to do it by clicking the *Access Machines*!
 
 
-<img src="Photos/pickle_rick_3.png" width="300" height="100">
+<img src="Media/Pickle_Rick/Images/pickle_rick_3.png" width="300" height="100">
 
 If you are using the *Attack Box* it is a good idea to use Split Screen to make your life easier!
 
@@ -28,19 +28,19 @@ If you are using the *Attack Box* it is a good idea to use Split Screen to make 
 
 Click on the *View in full Screen* at the bottom of the VM screen
 
-<img src="Photos/pickle_rick_4.png" width="300" height="100">
+<img src="Media/Pickle_Rick/Images/pickle_rick_4.png" width="300" height="100">
 
 
 A new tab with the VM will pop-up.
 
-<img src="Photos/pickle_rick_5.png" width="300" height="100">
+<img src="Media/Pickle_Rick/Images/pickle_rick_5.png" width="300" height="100">
 
 
 ## Step 4
 
 Now you can close the Split View on the original window by clicking on the Split View at the bottom of the VM screen.
 
-<img src="Photos/pickle_rick_6.png" width="200" height="100">
+<img src="Media/Pickle_Rick/Images/pickle_rick_6.png" width="200" height="100">
 
 
 Now you can use 2 tabs for the challenge, if you have 2 screens you can make your live easier with this trick!
@@ -61,12 +61,12 @@ On your machine or on the VM from TryHackMe [[#Step 2]] open your web browser of
 On the address bar type the address of the VM you started earlier [[#Step 1]].
 <br><br>
 
-<img src="Photos/pickle_rick_7.png"  width="300" height="100">
+<img src="Media/Pickle_Rick/Images/pickle_rick_7.png"  width="300" height="100">
 
 For my example I had this IP: 10.10.149.123 <br><br>
 
 
-<img src="Photos/pickle_rick_8.png">
+<img src="Media/Pickle_Rick/Images/pickle_rick_8.png">
 
 Web Browser of local VM
 
@@ -78,12 +78,12 @@ After this is always a god idea to inspect the source code of the web page
 
 When you inspect  the code you can see someone wrote the username so they will not forget, should be also nice to leave the Password there!
 
-<img src="Photos/pickle_rick_10.png" width="500" height="300">
+<img src="Media/Pickle_Rick/Images/pickle_rick_10.png" width="500" height="300">
 
 Also, if you check the header of the HTML code we can see that there might be more directories in the same server that we can reach. <br>
 These directories might have something important hidden there, or gives us some more clues about finding the answers we seek.
 
-<img src="Photos/pickle_rick_14.png" width="300" height="100">
+<img src="Media/Pickle_Rick/Images/pickle_rick_14.png" width="300" height="100">
 
 Now our next step will be to check if there are more directories!
 
@@ -110,7 +110,7 @@ The `-x php,txt,zip,html` specifies what file extensions is going to check for.
 
 The result of the command is this:
 
-<img src="Photos/pickle_rick_13.png" width="500" height="300">
+<img src="Media/Pickle_Rick/Images/pickle_rick_13.png" width="500" height="300">
 
 As you can see the gobuster found a lot of extra hidden directories that we can reach by adding them after the servers ip.<br><br> 
 *The directories with Status: 200 are available to see without any password...*
@@ -118,18 +118,18 @@ As you can see the gobuster found a lot of extra hidden directories that we can 
 Let's go check them out!<br><br><br>
 ### login.php
 
-<img src="Photos/pickle_rick_15.png" width="500" height="400">
+<img src="Media/Pickle_Rick/Images/pickle_rick_15.png" width="500" height="400">
  We need the logins to find more!<br>
 
 ### robots.txt
 
-<img src="Photos/pickle_rick_12.png" width="290" height="100">
+<img src="Media/Pickle_Rick/Images/pickle_rick_12.png" width="290" height="100">
 
 There is some text here, maybe this is the password to log us in the login page?
 
 ### clue.txt
 
-<img src="Photos/pickle_rick_16.png" width="300" height="100">
+<img src="Media/Pickle_Rick/Images/pickle_rick_16.png" width="300" height="100">
 
 Maybe this is a clue that we can use this later.
 
@@ -139,13 +139,13 @@ Now we are going to use the Username we found in [Step 1.2](#step-12) and the wo
 <span style="font-size:20px;">Success!!!</span><br>
 
 
-<img src="Photos/pickle_rick_17.png" width="250" height="100">
+<img src="Media/Pickle_Rick/Images/pickle_rick_17.png" width="250" height="100">
 
 A new webpage is revealed.
 
 Checking the links doesn't reveal anything  just  this image:
 
-<img src="Photos/pickle_rick_18.png" width="50%" height="50%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_18.png" width="50%" height="50%">
 
 Also inspecting the code is not giving us any clues, maybe later we can find something more.
 
@@ -155,7 +155,7 @@ Usually the servers are hosted by linux systems so lets try some linux commands.
 
 Using the `ls` command in the command panel we get this response:
 
-<img src="Photos/pickle_rick_19.png" width="50%" height="50%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_19.png" width="50%" height="50%">
 
 Maybe will be a good idea to try these names as directories/web pages that might contain a clue!!!
 
@@ -163,7 +163,7 @@ Maybe will be a good idea to try these names as directories/web pages that might
 We already know what robots.txt does.
 If we try Sup3rS3cretPickl3Ingred.txt we are faced with this page:
 
-<img src="Photos/pickle_rick_21.png" width="50%" height="50%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_21.png" width="50%" height="50%">
 
 If we use the clue we can answer the  1st Question:  *What is the first ingredient that Rick needs?*
 
@@ -176,11 +176,11 @@ At [#Step 1.5](#step-15) we used the `ls` command, let us use the pwd and whoami
 
 `pwd`: 
 
-<img src="Photos/pickle_rick_22.png" width="30%" height="30%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_22.png" width="30%" height="30%">
 
 and `whoami`:
 
-<img src="Photos/pickle_rick_23.png" width="20%" height="20%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_23.png" width="20%" height="20%">
 
 
 Both commands are really good to understand what are the possibilities to find more clues about the ingredients. Maybe we should start searching in the system as the [#clue.txt](#cluetxt) suggested 
@@ -189,13 +189,13 @@ Both commands are really good to understand what are the possibilities to find m
 
 Using the `ls /home command` we see that are 2 directories for users rick and ubuntu... 
 
-<img src="Photos/pickle_rick_24.png" width="30%" height="30%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_24.png" width="30%" height="30%">
 
 
 ## Step 2.3
 Using the command `ls /home/rick` we see there is a file inside users rick directory maybe we should try to see what is inside this file with the `cat` command
 
-<img src="Photos/pickle_rick_25.png" width="30%" height="30%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_25.png" width="30%" height="30%">
 
 
 ## Step 2.4 
@@ -203,13 +203,13 @@ Using the `cat /home/rick/second ingredients`
 Unfortunately Rick is smart!!!
 
 
-<img src="Photos/pickle_rick_26.png" width="30%" height="30%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_26.png" width="30%" height="30%">
 
 
 ## Step 2.5 
 Maybe Rick is smart but we know linux...  Let's try some more commands like `sudo cat /home/rick/second ingredients `
 
-<img src="Photos/pickle_rick_26.png" width="30%" height="30%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_26.png" width="30%" height="30%">
 
 Again the same but we know there are more types of commands to use with especially now that we saw that `sudo` commands are available!
 
@@ -221,7 +221,7 @@ It is a bit complicated to explain what the command `less` is doing so better re
 
 After we run the command we have something new:
 
-<img src="Photos/pickle_rick_29.png" width="50%" height="50%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_29.png" width="50%" height="50%">
 
 
 **Congratulations!!** 
@@ -231,17 +231,17 @@ After we run the command we have something new:
 
 Another really nice command to check all the directories in the current user is `sudo ls ../../../*`
 <br>
-<img src="Photos/pickle_rick_27.png" width="50%" height="50%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_27.png" width="50%" height="50%">
 <br>
 We get  a lot of directories, if we search all the directories we see: 
 
-<img src="Photos/pickle_rick_28.png" width="50%" height="50%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_28.png" width="50%" height="50%">
 
 **Bingo**
 
 Lets try to see what is inside:
 
-<img src="Photos/pickle_rick_30.png" width="40%" height="40%">
+<img src="Media/Pickle_Rick/Images/pickle_rick_30.png" width="40%" height="40%">
 
 **Congratulations!! You found the last ingredient, Rick is saved!!!** 
 <br>

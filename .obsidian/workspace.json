@@ -8,31 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b7ba824e293a1bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6dc82968857c9975",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -161,23 +140,30 @@
   },
   "active": "6dc82968857c9975",
   "lastOpenFiles": [
-    "Wireshark Packet Operations/Photos/img_26.png",
-    "Wireshark Packet Operations/Photos/img_25.png",
-    "Wireshark Packet Operations/Photos/img_24.png",
-    "Wireshark Packet Operations/Photos/img_23.png",
-    "Wireshark Packet Operations/Photos/img_22.png",
-    "Wireshark Packet Operations/Photos/img_2.0.png",
-    "Wireshark Packet Operations/Photos/img_21.png",
-    "Wireshark Packet Operations/Photos/img_3_1.png",
-    "Wireshark Packet Operations/img_2.0.png",
-    "Wireshark Packet Operations/Screenshot 2023-09-22 at 15.46.58.png",
-    "Wireshark Packet Operations/Photos/img_8.png",
+    "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
+    "Wireshark Packet Operations Walkthrough.md",
+    "Media/Wireshark_Packet_Operations/Images/img_8.png",
+    "Media/Wireshark_Packet_Operations/Images/img_7.png",
+    "Media/Wireshark_Packet_Operations/Images/img_6.png",
+    "Media/Wireshark_Packet_Operations/Images/img_5.png",
+    "Media/Wireshark_Packet_Operations/Images/img_4.png",
+    "Media/Wireshark_Packet_Operations/Images/img_3_1.png",
+    "Media/Wireshark_Packet_Operations/Images/img_3.png",
+    "Media/Wireshark_Packet_Operations/Images/img_26.png",
+    "Media/Wireshark_Packet_Operations/Images/img_25.png",
+    "Media/Wireshark_Packet_Operations/Images/img_24.png",
+    "Media/Wireshark_Packet_Operations/Images",
+    "Media/Wireshark_Packet_Operations/Photos",
+    "TryHackMe Pickle Rick Walkthrough.md",
+    "Media/Pickle_Rick/Images",
+    "Media/Pickle_Rick/Photos",
+    "Media/Pickle_Rick",
+    "Media/Wireshark_Packet_Operations",
+    "Media/PickleRick",
+    "Media",
     "Pickle Rick TryHackMe Walkthrough/TryHackMe Pickle Rick Walkthrough.md",
     "Screenshot 2023-09-21 at 12.41.13.png.md",
-    "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
     "Pickle Rick TryHackMe Walkthrough/Photos",
-    "Pickle Rick TryHackMe Walkthrough",
-    "Wireshark Packet Operations/Photos",
-    "Wireshark Packet Operations"
+    "Pickle Rick TryHackMe Walkthrough"
   ]
 }
