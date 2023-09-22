@@ -1,15 +1,17 @@
 # About 
 This is one of the simple CTF based on the Rick and Morty cartoon. This is a **free**room, which means anyone can deploy virtual machines in the room (without being subscribed)!
 There are only 3 questions so probably not to hard to bit!
+<img src="Photos/pickle_rick_1.png">
 
-![[pickle_rick_1.png]]
+
 
 # Start here.
+
 ## Step 1 
 
-Before we begin of course we need to start the VM that the answers are!
-![[pickle_rick_2.png]]
+Before we begin of course we need to start the VM that Rick has stored the ingredients!
 
+<img src="Photos/pickle_rick_2.png" width="300" height="100">
 
 ## Step 2 
 
@@ -17,30 +19,36 @@ Also, after this click on *Start Attack Box*. Of course you can use your own com
 
 You  can find more information how to do it by clicking the *Access Machines*!
 
-![[Screenshot 2023-09-21 at 12.43.58.png]]
+
+<img src="Photos/pickle_rick_3.png" width="300" height="100">
 
 If you are using the *Attack Box* it is a good idea to use Split Screen to make your life easier!
 
 ## Step 3
 
 Click on the *View in full Screen* at the bottom of the VM screen
-![[Screenshot 2023-09-21 at 12.56.15.png]]
+
+<img src="Photos/pickle_rick_4.png" width="300" height="100">
 
 
 A new tab with the VM will pop-up.
-![[Screenshot 2023-09-21 at 12.57.59.png]]
+
+<img src="Photos/pickle_rick_5.png" width="300" height="100">
+
 
 ## Step 4
 
 Now you can close the Split View on the original window by clicking on the Split View at the bottom of the VM screen.
-![[Screenshot 2023-09-21 at 13.00.54.png]]
+
+<img src="Photos/pickle_rick_6.png" width="200" height="100">
 
 
 Now you can use 2 tabs for the challenge, if you have 2 screens you can make your live easier with this trick!
 
-==While I was completing this challenge the AttackBox was having some issues, so I moved to the Kali Linux Box. If you have issues after Firefox opens the VM address better close the AttackBox and move to Kali Linux Box==
+*While I was completing this challenge the AttackBox was having some issues, so I moved to the Kali Linux Box. If you have issues after Firefox opens the VM address better close the AttackBox and move to Kali Linux Box*
 
-After all these are  done is time for our 1st Challenge!
+After all these are  done is time for our 1st Challenge!<br>
+
 
 # Question 1
 
@@ -51,28 +59,33 @@ After all these are  done is time for our 1st Challenge!
 Let us start with the easy part first.
 On your machine or on the VM from TryHackMe [[#Step 2]] open your web browser of choice (Firefox for the VM). 
 On the address bar type the address of the VM you started earlier [[#Step 1]].
+<br><br>
+
+<img src="Photos/pickle_rick_7.png"  width="300" height="100">
+
+For my example I had this IP: 10.10.149.123 <br><br>
 
 
-
-For my example I had this IP: 10.10.149.123 
-![[Screenshot 2023-09-21 at 13.09.08.png]]
-
+<img src="Photos/pickle_rick_8.png" width="300" height="100">
 
 Web Browser of local VM
-![[Screenshot 2023-09-21 at 13.10.51.png]]
-
 
 ## Step 1.2
 
 After this is always a god idea to inspect the source code of the web page 
-[[#Source Code Inspection]]
+[Go to Source Code Inspection Help](#Source-Code-Inspection)
 
-When you inspect  the code you can see someone wrote the username so they will not forget, should be also nice to leave the password there!
-![[Screenshot 2023-09-21 at 15.40.16.png]]
 
-Also, checking the HTML code of the page we can see that there might be more directories in the same server that we can reach. These directories might have something important hidden there.
-![[Screenshot 2023-09-21 at 17.49.00.png]]
-So our next step is to check if there are more directories and to check if the password is there in order to find the 1st ingredient.
+When you inspect  the code you can see someone wrote the username so they will not forget, should be also nice to leave the Password there!
+
+<img src="Photos/pickle_rick_10.png" width="500" height="300">
+
+Also, if you check the header of the HTML code we can see that there might be more directories in the same server that we can reach. <br>
+These directories might have something important hidden there, or gives us some more clues about finding the answers we seek.
+
+<img src="Photos/pickle_rick_14.png" width="300" height="100">
+
+Now our next step will be to check if there are more directories!
 
 
 ## Step 1.3
@@ -96,58 +109,62 @@ The `-w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`  specifies
 The `-x php,txt,zip,html` specifies what file extensions is going to check for.
 
 The result of the command is this:
-![[Screenshot 2023-09-21 at 17.07.14.png]]
 
-As you can see the gobuster found a lot of extra hidden directories that we can reach by adding them after the servers ip. 
+<img src="Photos/pickle_rick_13.png" width="500" height="300">
+
+As you can see the gobuster found a lot of extra hidden directories that we can reach by adding them after the servers ip.<br><br> 
 *The directories with Status: 200 are available to see without any password...*
 
-We should check them out!
-
+Let's go check them out!<br><br><br>
 ### login.php
 
-![[Screenshot 2023-09-21 at 18.03.25.png]]
- We need the logins to find more!
+<img src="Photos/pickle_rick_15.png" width="500" height="400">
+ We need the logins to find more!<br>
+
 ### robots.txt
 
-![[Screenshot 2023-09-21 at 16.58.34.png]]
+<img src="Photos/pickle_rick_12.png" width="290" height="100">
+
 There is some text here, maybe this is the password to log us in the login page?
 
 ### clue.txt
 
-![[Screenshot 2023-09-21 at 18.04.45.png]]
-Maybe we can use this later.
+<img src="Photos/pickle_rick_16.png" width="300" height="100">
+
+Maybe this is a clue that we can use this later.
 
 ## Step 1.4
-Now we are going to use the Username we found in [[#Step 1.2]] and the word we found on [[#Step 1.3]]
+Now we are going to use the Username we found in [Step 1.2](#step-12) and the word we found on [Step 1.3](#step-13)
 
-Success!!!
+<span style="font-size:20px;">Success!!!</span><br>
+
+
+<img src="Photos/pickle_rick_17.png" width="250" height="100">
+
 A new webpage is revealed.
 
-![[Screenshot 2023-09-21 at 18.09.02.png]]
-
-
 Checking the links doesn't reveal anything  just  this image:
-![[Screenshot 2023-09-21 at 18.12.17.png]]
+<img src="Photos/pickle_rick_18.png" width="50%" height="50%">
 
 Also inspecting the code is not giving us any clues, maybe later we can find something more.
 
 ## Step 1.5
-BUT!
+BUT!<br>
 Usually the servers are hosted by linux systems so lets try some linux commands.
 
 Using the `ls` command in the command panel we get this response:
-![[Screenshot 2023-09-21 at 18.13.35.png]]
+<img src="Photos/pickle_rick_19.png" width="50%" height="50%">
 
-Maybe it is a good idea to try if these are also directories/web pages that might contain a clue!!!
+Maybe will be a good idea to try these names as directories/web pages that might contain a clue!!!
 
 ## Step 1.6
 We already know what robots.txt does.
 If we try Sup3rS3cretPickl3Ingred.txt we are faced with this page:
 
 ![[Screenshot 2023-09-21 at 18.37.53.png]]
-If we use the clue we can answer the  1st Question of  *What is the first ingredient that Rick needs?*
+If we use the clue we can answer the  1st Question:  *What is the first ingredient that Rick needs?*
 
-**Concragulations!!** 
+**Congratulations!!!** 
 
 # Question 2
 
