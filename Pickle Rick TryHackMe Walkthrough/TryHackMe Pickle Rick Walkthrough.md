@@ -8,13 +8,15 @@ There are only 3 questions so probably not to hard to bit!
 ## Step 1 
 
 Before we begin of course we need to start the VM that the answers are!
-![[Screenshot 2023-09-21 at 12.41.13.png]]
+![[pickle_rick_2.png]]
+
 
 ## Step 2 
 
 Also, after this click on *Start Attack Box*. Of course you can use your own computer but then you must first connect through the OpenVpn.
 
 You  can find more information how to do it by clicking the *Access Machines*!
+
 ![[Screenshot 2023-09-21 at 12.43.58.png]]
 
 If you are using the *Attack Box* it is a good idea to use Split Screen to make your life easier!
@@ -200,7 +202,7 @@ After we run the command we have something new:
 
 ![[Screenshot 2023-09-21 at 20.13.53.png]]`
 
-**Concragulations!!** 
+**Congratulations!!** 
 # Question 3
 
 ## Step 3.1
@@ -217,7 +219,7 @@ Lets try to see what is inside:
 
 ![[Screenshot 2023-09-21 at 20.17.30.png]]
 
-**Concragulations!! You found the last ingredient, Rick is saved!!!** 
+**Congratulations!! You found the last ingredient, Rick is saved!!!** 
 
 Hope you had enjoyed this guide, if you want to comment or correct me please feel free to contact me. 
 
