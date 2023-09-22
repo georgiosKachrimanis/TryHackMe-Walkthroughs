@@ -144,6 +144,7 @@ Now we are going to use the Username we found in [Step 1.2](#step-12) and the wo
 A new webpage is revealed.
 
 Checking the links doesn't reveal anything  just  this image:
+
 <img src="Photos/pickle_rick_18.png" width="50%" height="50%">
 
 Also inspecting the code is not giving us any clues, maybe later we can find something more.
@@ -153,6 +154,7 @@ BUT!<br>
 Usually the servers are hosted by linux systems so lets try some linux commands.
 
 Using the `ls` command in the command panel we get this response:
+
 <img src="Photos/pickle_rick_19.png" width="50%" height="50%">
 
 Maybe will be a good idea to try these names as directories/web pages that might contain a clue!!!
@@ -178,7 +180,7 @@ At [#Step 1.5](#step-15) we used the `ls` command, let us use the pwd and whoami
 
 and `whoami`:
 
-<img src="Photos/pickle_rick_23.png" width="30%" height="30%">
+<img src="Photos/pickle_rick_23.png" width="20%" height="20%">
 
 
 Both commands are really good to understand what are the possibilities to find more clues about the ingredients. Maybe we should start searching in the system as the [#clue.txt](#cluetxt) suggested 
@@ -200,11 +202,12 @@ Using the command `ls /home/rick` we see there is a file inside users rick direc
 Using the `cat /home/rick/second ingredients` 
 Unfortunately Rick is smart!!!
 
+
 <img src="Photos/pickle_rick_26.png" width="30%" height="30%">
+
 
 ## Step 2.5 
 Maybe Rick is smart but we know linux...  Let's try some more commands like `sudo cat /home/rick/second ingredients `
-
 
 <img src="Photos/pickle_rick_26.png" width="30%" height="30%">
 
@@ -230,7 +233,8 @@ Another really nice command to check all the directories in the current user is 
 <br>
 <img src="Photos/pickle_rick_27.png" width="50%" height="50%">
 <br>
-We get  a lot of directories, if we search more inside them we see: 
+We get  a lot of directories, if we search all the directories we see: 
+
 <img src="Photos/pickle_rick_28.png" width="50%" height="50%">
 
 **Bingo**
