@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pickle Rick TryHackMe Walkthrough/TryHackMe Pickle Rick Walkthrough.md",
+                "file": "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pickle Rick TryHackMe Walkthrough/TryHackMe Pickle Rick Walkthrough.md",
+                "file": "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pickle Rick TryHackMe Walkthrough/TryHackMe Pickle Rick Walkthrough.md",
+                "file": "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pickle Rick TryHackMe Walkthrough/TryHackMe Pickle Rick Walkthrough.md"
+                "file": "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md"
               }
             }
           }
@@ -161,18 +161,19 @@
   },
   "active": "6dc82968857c9975",
   "lastOpenFiles": [
-    "Screenshot 2023-09-21 at 12.41.13.png.md",
+    "Wireshark Packet Operations/Photos/img_8.png",
+    "Wireshark Packet Operations/Photos/img_31.png",
+    "Wireshark Packet Operations/Photos/img_7.png",
+    "Wireshark Packet Operations/Photos/img_6.png",
+    "Wireshark Packet Operations/Photos/img_0.png",
+    "Wireshark Packet Operations/Photos/img_5.png",
+    "Wireshark Packet Operations/Photos/img_4.png",
+    "Wireshark Packet Operations/Photos/img_3.png",
+    "Wireshark Packet Operations/Photos/img_2.png",
+    "Wireshark Packet Operations/Photos/img_1.png",
     "Pickle Rick TryHackMe Walkthrough/TryHackMe Pickle Rick Walkthrough.md",
+    "Screenshot 2023-09-21 at 12.41.13.png.md",
     "Pickle Rick TryHackMe Walkthrough/Photos/pickle_rick_2.png",
-    "Pickle Rick TryHackMe Walkthrough/Photos/pickle_rick_4.png",
-    "Pickle Rick TryHackMe Walkthrough/Photos/pickle_rick_7.png",
-    "Pickle Rick TryHackMe Walkthrough/Photos/pickle_rick_30.png",
-    "Pickle Rick TryHackMe Walkthrough/Photos/pickle_rick_29.png",
-    "Pickle Rick TryHackMe Walkthrough/Photos/pickle_rick_28.png",
-    "Pickle Rick TryHackMe Walkthrough/Photos/pickle_rick_27.png",
-    "Pickle Rick TryHackMe Walkthrough/Photos/Pickle_rick_26.png",
-    "Pickle Rick TryHackMe Walkthrough/Photos/pickle_rick_25.png",
-    "Pickle Rick TryHackMe Walkthrough/Photos/pickle_rick_24.png",
     "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
     "Pickle Rick TryHackMe Walkthrough/Photos",
     "Pickle Rick TryHackMe Walkthrough",
