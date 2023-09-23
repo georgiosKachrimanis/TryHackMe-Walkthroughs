@@ -59,6 +59,7 @@ Using the built in tools that this room wants to teach us we should do the follo
 1. Statistics --> Resolved addresses.<br>
     <img src="Media/Wireshark_Packet_Operations//Images//img_2.0.png" width="40%" height="40%">
 2. You click on the drop down menu of "All entries", and you choose "Host".<br>
+
     <img src="Media/Wireshark_Packet_Operations//Images//img_21.png" width="30%" height="30%"><br>
 3. Then on the search entry you type "bbc" and then you will get the hostname that starts with bbc.     
     <img src="Media/Wireshark_Packet_Operations//Images//img_22.png" width="30%" height="30%"> 
@@ -114,6 +115,7 @@ Using the built in tools that this room wants to teach us we should do the follo
 
     <img src="Media/Wireshark_Packet_Operations//Images//img_30.png" width="40%" height="40%">
 2. Then on the popup window click on count to sort the list. The IP will be on top.
+
     <img src="Media/Wireshark_Packet_Operations//Images//img_31.png" width="40%" height="40%">
 
 ## Question 2
