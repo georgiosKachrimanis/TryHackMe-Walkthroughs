@@ -243,6 +243,7 @@ So now we must use the GUI again for this one.
 
     <img src="Media/Wireshark_Packet_Operations//Images//img_74.jpg" width="40%" height="40%">
 2. Now you have to find the bad packets so `tcp.checksum_bad.expert`.
+
     <img src="Media/Wireshark_Packet_Operations//Images//img_75.jpg" width="40%" height="40%">
 
 Again you can find the total amount on the bottom right of the screen at the *Displayed Packets*<br>
