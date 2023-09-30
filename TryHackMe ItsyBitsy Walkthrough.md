@@ -44,21 +44,21 @@ Now we will use the Source_IP to check the packages that where send out and find
 
 Again using the same filter you can see the website 
 
-<img src="Media/ItsyBitsy/itsy_8.jpg" height=80% width=80%>
+<img src="Media/ItsyBitsy/itsy_8.jpg" height=140% width=140%>
 
 ## What is the full URL of the C2 to which the infected host is connected?
 
 We can find the information again the same way, but we can also do this.
 Click on the uri and you can get the answer. (tip: use the name of the site first and then the uri.)
 
-<img src="Media/ItsyBitsy/itsy_9.jpg" height=80% width=80%>
+<img src="Media/ItsyBitsy/itsy_9.jpg" height=140% width=140%>
 
 
 ## A file was accessed on the filesharing site. What is the name of the file accessed?
 
 For this question we are going to use the full url we found for the previous question and visit the website.
 
-<img src="Media/ItsyBitsy/itsy_10.jpg" height=80% width=80%>
+<img src="Media/ItsyBitsy/itsy_10.jpg" height=50% width=50%>
 
 ## The file contains a secret code with the format THM{_____}.
 
