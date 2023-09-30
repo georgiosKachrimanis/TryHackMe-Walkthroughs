@@ -14,11 +14,11 @@ When your VM starts you can input the < ip > from the Activated machine and you 
 
 Now you can click on the top left where the 3 parallel lines are and after on the Discover tab of Analytics
 
-<img src="Media/ItsyBitsy/itsy_3.jpg" height=20% width=20%>
+<img src="Media/ItsyBitsy/itsy_3.jpg" height=40% width=40%>
 
 On the new screen you are not going to see any results because you have to adjust the time values. The instructions asks us to use the month March 2022. So change the start and end date, then press update.
 
-<img src="Media/ItsyBitsy/itsy_4.jpg" height=20% width=20%>
+<img src="Media/ItsyBitsy/itsy_4.jpg" height=40% width=40%>
 
 Now we can start answering questions.
 
@@ -26,7 +26,7 @@ Now we can start answering questions.
 
 You can find the answer after the dates have been updated checking the number of hits.
 
-<img src="Media/ItsyBitsy/itsy_5.jpg" height=20% width=20%>
+<img src="Media/ItsyBitsy/itsy_5.jpg" height=40% width=40%>
 
 ## What is the IP associated with the suspected user in the logs?
 Using the filter of Source_ip you can see 2 IPs just test them.
