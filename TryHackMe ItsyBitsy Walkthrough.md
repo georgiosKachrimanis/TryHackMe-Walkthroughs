@@ -38,20 +38,20 @@ Using the filter of Source_ip you can see 2 IPs just test them.
 
 Now we will use the Source_IP to check the packages that where send out and find the user_agent.
 
-<img src="Media/ItsyBitsy/itsy_7.jpg" height=80% width=80%>
+<img src="Media/ItsyBitsy/itsy_7.jpg" height=180% width=180%>
 
 ## The infected machine connected with a famous filesharing site in this period, which also acts as a C2 server used by the malware authors to communicate. What is the name of the filesharing site?
 
 Again using the same filter you can see the website 
 
-<img src="Media/ItsyBitsy/itsy_8.jpg" height=140% width=140%>
+<img src="Media/ItsyBitsy/itsy_8.jpg" height=180% width=180%>
 
 ## What is the full URL of the C2 to which the infected host is connected?
 
 We can find the information again the same way, but we can also do this.
 Click on the uri and you can get the answer. (tip: use the name of the site first and then the uri.)
 
-<img src="Media/ItsyBitsy/itsy_9.jpg" height=140% width=140%>
+<img src="Media/ItsyBitsy/itsy_9.jpg" height=60% width=60%>
 
 
 ## A file was accessed on the filesharing site. What is the name of the file accessed?
