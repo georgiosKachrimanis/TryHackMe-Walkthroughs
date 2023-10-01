@@ -14,7 +14,11 @@ You first need to start the VM machine that is hosting Splunk and if you are usi
 
 <img src="Media/Investigating with Splunk/splunk_2.jpg" height=50% width=50% >
 
+<<<<<<< HEAD
 Also for your own convenience you can use a separate tab for the AttackBox by doing the following:
+=======
+Also for your own convenience you can use a seperate tab for the AttackBox by doing the following:
+>>>>>>> c109d764ac94066d866325fe8f034ac090c5568c
 
 1. Click on the View in full screen at the bottom left of the AttackBox screen.
 
