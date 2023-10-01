@@ -14,17 +14,21 @@ You first need to start the VM machine that is hosting Splunk and if you are usi
 
 <img src="Media/Investigating with Splunk/splunk_2.jpg" height=50% width=50% >
 
-Also for your own convinience you can use a seperate tab for the AttackBox by doing the following:
+Also for your own convenience you can use a separate tab for the AttackBox by doing the following:
 
 1. Click on the View in full screen at the bottom left of the AttackBox screen.
-<img src="Media/Investigating with Splunk/splunk_3.jpg" height=50% width=50% >
+
+    <img src="Media/Investigating with Splunk/splunk_3.jpg" height=50% width=50% >
 
 2. Now a new tab will open with the VM and you can close the split screen by clicking on exit split view. You now have 2 tabs one with the questions and one with the VM.
+    
     <img src="Media/Investigating with Splunk/splunk_4.jpg" height=50% width=50% >
 
 3. When the machines are running you just press the search button.
+    
     <img src="Media/Investigating with Splunk/splunk_5.jpg" height=50% width=50% >
 4. Now you must type where the ingested logs are `index="main"`
+   
     <img src="Media/Investigating with Splunk/splunk_6.jpg" height=50% width=50% >
 
 <h2> Answers </h2>
