@@ -10,7 +10,7 @@ The first thing you have to do is start the VM and then to connect with your VM 
 
 When your VM starts you can input the < ip > from the Activated machine and you will be connected directly to the Elasticsearch page.
 
-<img src="Media/ItsyBitsy/itsy_2.jpg" height=50% width=50%>
+<img src="Media/ItsyBitsy/Itsy_2.jpg" height=50% width=50%>
 
 Now you can click on the top left where the 3 parallel lines are and after on the Discover tab of Analytics
 
