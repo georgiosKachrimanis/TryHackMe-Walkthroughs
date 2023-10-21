@@ -14,8 +14,29 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "432dae4266aa4e53",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
+          },
+          {
+            "id": "c151d38c1ad169dc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -138,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6dc82968857c9975",
+  "active": "c151d38c1ad169dc",
   "lastOpenFiles": [
     "Media/Wireshark_Packet_Operations/Images/img_77.jpg",
     "Media/Wireshark_Packet_Operations/Images/img_76.jpg",
