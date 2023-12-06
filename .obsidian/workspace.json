@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "33b7b7b37e694bcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "30e2efc029cc423b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dc82968857c9975",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "432dae4266aa4e53",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
+          },
+          {
+            "id": "c151d38c1ad169dc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7d24e635c6816500",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ddea2e6170a1d2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "057dca308581c62d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2ae8b4e04275aca4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4b15f0d7d9a67875",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b9ba50be287f2cec",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ba97f03271f3260",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "916a989446f07123",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1850b17bd785b1bb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d7740e3d636f9773",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ccd751c777e928e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c151d38c1ad169dc",
+  "lastOpenFiles": [
+    "Media/Wireshark_Packet_Operations/Images/img_77.jpg",
+    "Media/Wireshark_Packet_Operations/Images/img_76.jpg",
+    "Media/Wireshark_Packet_Operations/Images/img_75.jpg",
+    "Media/Wireshark_Packet_Operations/Images/img_74.jpg",
+    "Media/Wireshark_Packet_Operations/Images/img_73.jpg",
+    "Media/Wireshark_Packet_Operations/Images/img_72.jpg",
+    "Media/Wireshark_Packet_Operations/Images/img_71.jpg",
+    "Media/Wireshark_Packet_Operations/Images/img_70.jpg",
+    "Media/Wireshark_Packet_Operations/Images/img_55.jpg",
+    "Media/Wireshark_Packet_Operations/Images/img_54.jpg",
+    "Media/Wireshark_Packet_Operations/Images/img_53.jpg",
+    "TryHackMe Wireshark Packet Operations Walkthrough.md",
+    "Wireshark Packet Operations/Wireshark Packet Operations Walkthrough.md",
+    "Wireshark Packet Operations Walkthrough.md",
+    "Media/Wireshark_Packet_Operations/Images",
+    "Media/Wireshark_Packet_Operations/Photos",
+    "TryHackMe Pickle Rick Walkthrough.md",
+    "Media/Pickle_Rick/Images",
+    "Media/Pickle_Rick/Photos",
+    "Media/Pickle_Rick",
+    "Media/Wireshark_Packet_Operations",
+    "Media/PickleRick",
+    "Media",
+    "Pickle Rick TryHackMe Walkthrough/TryHackMe Pickle Rick Walkthrough.md",
+    "Screenshot 2023-09-21 at 12.41.13.png.md",
+    "Pickle Rick TryHackMe Walkthrough/Photos",
+    "Pickle Rick TryHackMe Walkthrough"
+  ]
+}
