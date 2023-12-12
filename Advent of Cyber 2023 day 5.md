@@ -49,7 +49,7 @@ We need to follow the steps of Back to the past. Follow the commands below:
 4. CHANGE THE 2 topmost characters from XX --> AC  Is the converted values of 41 43 to ASCI()
 5. Navigate back to the directory of BackUpMaster3000. `CD TOOLS` and `CD BACKUP`
 6. Use the Command `BUMASTER.EXE C:\AC2023.BAK`
-7. Success!
+7. Success! *HINT: The flag is in LEET typing...*
 
 <img src="Media/Advent_day_5/img_3.jpg" height=50% width=50% >
 
